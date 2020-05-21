@@ -7,9 +7,47 @@
     <title>Static Template</title>
   </head>
   <body>
-    <h1>
-      This is a static temphsgahgaslate, there is no bundler or bundling
-      involved!
-    </h1>
+    <div class="container">
+      <div class="frame"></div>
+    </div>
+
+    <!-- style-->
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      html {
+        font-size: 10px;
+      }
+
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        height: 100vh;
+        background-color: #2d2d2d;
+      }
+
+      body,
+      html {
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        height: 450px;
+        width: 300px;
+        background-color: #fad390;
+        border-radius: 5px;
+        padding: 18px;
+      }
+
+      .frame {
+        border: 1px solid #2d2d2d;
+        height: 100%;
+      }
+    </style>
   </body>
 </html>
