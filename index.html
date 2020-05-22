@@ -22,7 +22,7 @@
         <div class="header">
           <button class="header-btn">Add</button>
           <h1 class="header-title">Todo List</h1>
-          <button class="header-btn">Clear</button>
+          <button class="header-btn main-red-color">Clear</button>
         </div>
       </div>
     </div>
@@ -31,6 +31,14 @@
     <style>
       * {
         box-sizing: border-box;
+      }
+
+      :root {
+        --main-red-color: #e06262;
+      }
+
+      .main-red-color {
+        color: var(--main-red-color);
       }
 
       html {
